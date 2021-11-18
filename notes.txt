@@ -1,0 +1,8 @@
+5-
+base url
+
+6-
+pagination style
+
+7-
+can't remove index.php
