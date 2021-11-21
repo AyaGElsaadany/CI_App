@@ -15,6 +15,11 @@ class Users_m extends CI_Model{
 	function get_num(){
 		return $this->db->count_all_results('users');
 	}
+
+	function update($id, $user){
+		$this->db->where('id', $id);
+		$this->db->update('users', $user);
+	}
 }
 
 ?>

@@ -9,14 +9,14 @@
 	$config['num_links'] = 1;
 	$config['use_page_numbers'] = TRUE;
 
-	$config['full_tag_open'] = '<div class="Page"> <ul class="pagination">';
-	$config['full_tag_close'] = '</ul> </div>';
+	$config['full_tag_open'] = '<nav class="Page navigation"> <ul class="pagination">';
+	$config['full_tag_close'] = '</ul> </nav>';
 
-	$config['first_link'] = '>>';
+	$config['first_link'] = '<<';
 	$config['first_tag_open'] = '<li class="page-item"> <a class="page-link" href="#">';
 	$config['first_tag_close'] = '</a> </li>';
 
-	$config['last_link'] = '<<';
+	$config['last_link'] = '>>';
 	$config['last_tag_open'] = '<li class="page-item"> <a class="page-link" href="#">';
 	$config['last_tag_close'] = '</a> </li>';
 
@@ -28,7 +28,7 @@
 	$config['prev_tag_open'] = '<li class="page-item"> <a class="page-link" href="#">';
 	$config['prev_tag_close'] = '</a> </li>';
 
-	$config['cur_tag_open'] = '<li class="page-item"> <a class="page-link" href="a">';
+	$config['cur_tag_open'] = '<li class="page-item"> <a class="page-link" href="#">';
 	$config['cur_tag_close'] = '</a> </li>';
 
 	$config['num_tag_open'] = '<li class="page-item"> <a class="page-link" href="#">';
